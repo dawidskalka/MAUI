@@ -1,0 +1,10 @@
+1.Czym różni się aplikacja z interfejsem graficznym od aplikacji konsolowej? Podajmy co najmniej dwie różnice. 
+Aplikacja MAUI działa zupełnie inaczej. Po uruchomieniu wyświetla okno i czeka.
+W aplikacji konsolowej kod wykonywał się po kolei, linijka po linijce.
+W konsoli wszystko mieściło się w jednym pliku z kodem C#. W MAUI wygląd aplikacji opisujemy w osobnym pliku, w języku XAML
+
+2.Do czego służy plik z rozszerzeniem .xaml, a do czego plik kodu towarzyszącego z rozszerzeniem .xaml.cs? 
+App.xaml reprezentuje całą aplikację jako jeden obiekt. Tutaj przechowujemy ustawienia wspólne dla wszystkich stron, na przykład kolory czy style. Towarzyszy mu plik App.xaml.cs, który zawiera kod C# związany z aplikacją. 
+
+3.Dlaczego do tworzenia aplikacji MAUI potrzebujemy obciążenia (workload), a nie wystarczy samo Visual Studio? 
+Aby tworzyć aplikacje MAUI, potrzebujemy środowiska Visual Studio oraz dodatkowego zestawu narzędzi. Ten zestaw nazywamy obciążeniem (ang. workload). Bez niego Visual Studio nie potrafi budować projektów MAUI. 
