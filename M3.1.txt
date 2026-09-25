@@ -1,0 +1,11 @@
+1.Czym różnią się od siebie atrybuty Padding, Margin oraz Spacing? 
+Padding to odstęp wewnętrzny.
+Spacing to odstęp między kolejnymi elementami w układzie.
+Margin to odstęp zewnętrzny.
+
+2.Co oznaczają wartości Auto oraz * w definicji kolumny lub wiersza siatki Grid? 
+Auto — komórka dopasowuje rozmiar do zawartości.
+* — komórka zajmuje całą pozostałą wolną przestrzeń.
+
+3.Do czego służy atrybut Grid.ColumnSpan i kiedy warto go zastosować?
+Atrybut Grid.ColumnSpan rozpina element na kilka kolumn. 

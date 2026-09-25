@@ -1,0 +1,8 @@
+1.Czym różni się rola języka XAML od roli języka C# w aplikacji MAUI? 
+XAML opisuje, jak aplikacja wygląda, a C# opisuje, co aplikacja robi.
+ 
+2.Do czego służy atrybut x:Name i kiedy musimy go zastosować? 
+Atrybut x:Name działa jak imię nadane elementowi. Po nadaniu nazwy możemy się do elementu odwołać w kodzie tak samo, jak do zwykłej zmiennej.
+ 
+3.Co robi metoda InitializeComponent i dlaczego znajduje się w konstruktorze strony? 
+służy do wczytywania i inicjalizowania interfejsu użytkownika, który został zdefiniowany w pliku XAML.
