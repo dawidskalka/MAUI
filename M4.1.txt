@@ -1,0 +1,10 @@
+1.Czym różni się kontrolka Entry od kontrolki Editor i kiedy wybieramy każdą z nich? 
+Entry to pole służące do wpisywania krótkiego tekstu w jednej linii. Idealnie nadaje się do imienia, nazwiska, adresu e–mail czy hasła.
+Editor ma właściwości Text oraz Placeholder. Różnica polega na tym, że pole rozszerza się w pionie, mieszcząc kilka wierszy tekstu. 
+
+2.Jaką właściwość odczytujemy, aby sprawdzić stan kontrolki CheckBox, a jaką dla kontrolki Switch? 
+ IsChecked dla CheckBox.
+IsToggled dla Switch.
+
+3.Dlaczego przyciski RadioButton w jednej grupie muszą mieć wspólną nazwę GroupName? 
+ Wspólny GroupName sprawia, że można wybrać tylko jeden przycisk  
