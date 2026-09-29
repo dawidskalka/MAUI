@@ -1,0 +1,14 @@
+1.Czym różni się kontrolka Slider od kontrolki Stepper i w jakich sytuacjach wybieramy każdą z nich? 
+Stepper to kontrolka z dwoma przyciskami, plus i minus, służąca do zmiany liczby małymi krokami.
+Slider, czyli suwak, pozwala wybrać liczbę przez przesuwanie uchwytu wzdłuż linii.
+slider jest lepszy gdy chcemy ustalić wartość z pewnego zakresu
+a stepper jest lepszy gdy chcemy precyzyjna wartość 
+
+2.Jakiego typu jest wartość zwracana przez właściwość Value suwaka i dlaczego często stosujemy rzutowanie na int? 
+Wartość suwaka jest typu double, czyli liczby z częścią ułamkową. Często chcemy ją zaokrąglić do liczby całkowitej. Dlatego stosujemy rzutowanie (int)
+
+3.Wymieńmy cztery właściwości odpowiedzialne za wygląd kontrolki i opiszmy, za co odpowiada każda z nich. 
+-TextColor ustawia kolor tekstu kontrolki.
+-BackgroundColor ustawia kolor tła kontrolki.
+-FontSize ustawia rozmiar liter w jednostkach.
+FontAttributes określa styl czcionki.
