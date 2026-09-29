@@ -1,0 +1,16 @@
+1.Wyjaśnij własnymi słowami, czym różni się programowanie sterowane zdarzeniami od programu konsolowego wykonywanego od początku do końca. 
+zamiast pisać jeden długi ciąg instrukcji szykujemy zestaw metod 
+
+2.Podaj poprawną sygnaturę metody obsługi zdarzenia Clicked i wyjaśnij, do czego służą jej dwa parametry. 
+kliknięcie to Clicked, zmiana wartości to ValueChanged. Trzeci to metoda obsługi zdarzenia zwykła metoda C#, która zawiera kod uruchamiany w reakcji na sygnał. 
+
+3.Dla każdego z czterech poznanych zdarzeń (Clicked, ValueChanged, TextChanged, CheckedChanged) podaj kontrolkę, która je wywołuje, oraz najważniejszą daną dostępną w parametrze e. 
+Clicked (przycisk): parametr e typu EventArgs, bez dodatkowych danych. 
+
+ValueChanged (suwak): parametr e typu ValueChangedEventArgs, udostępnia e.NewValue oraz e.OldValue. 
+
+TextChanged (pole tekstowe): parametr e typu TextChangedEventArgs, udostępnia e.NewTextValue oraz e.OldTextValue. 
+
+CheckedChanged (pole wyboru): parametr e typu CheckedChangedEventArgs, udostępnia e.Value. 
+
+4.Wyjaśnij, dlaczego w zapisie PrzyciskLicz.Clicked += PrzyciskClicked; po nazwie metody nie ma nawiasów. 
